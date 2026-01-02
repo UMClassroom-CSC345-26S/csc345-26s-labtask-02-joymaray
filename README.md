@@ -1,6 +1,6 @@
 # Identify the Car Style
 
-Can a K-nearest neighbours classifier predict the style of a car from it's interior volume, number of doors, and make?
+Can a K-nearest neighbours classifier predict the style of a car from it's make, interior volume, and number of doors?
 This labtask has several parts:
 - Collect the data for 10 cars.
   The sample must be a *Simple Random Sample*. Write a short explanation why your
@@ -8,10 +8,10 @@ This labtask has several parts:
   One smart idea is to head out to a random carpark on campus, Publix, etc., and sample the cars
   appropriately.
   Submit that justification in a file `SimpleRandomSample.pdf`. (0.5%)
-- Put the data in an Excel spreadsheet called `MyCars.csv` with the columns `Volume`, `Doors`, `Make`, and `Style`.
-  The `Volume` in a real number of cubic feet.
-  The `Doors` is an integer (count a hatchback as a door).
+- Put the data in an Excel spreadsheet called `MyCars.csv` with the columns `Make`, `Volume`, `Doors`, and `Style`.
   The `Make` is something like `Ford`, `Tesla`, `Nissan`, etc.
+  The `Volume` is a real number of cubic feet.
+  The `Doors` is an integer (count a hatchback as a door).
   The `Style` is one of `Sedan`, `SUV`, `Jeep`, `Pickup`, or `Van`.
   You can get the interior volume of a car by asking an LLM, giving the make and model - something like "What is the interior volume of a Nissan Xterra?".
   Submit `MyCars.csv`. (0.5%)
